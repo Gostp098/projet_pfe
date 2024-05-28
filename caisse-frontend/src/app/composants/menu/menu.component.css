@@ -1,0 +1,17 @@
+/* Style pour les boutons de l'accordéon qui montrent les titres des menus */
+.accordion-button {
+    color: #6c757d; /* Gris Bootstrap par défaut */
+}
+
+/* Style pour les liens dans les sous-menus */
+.list-group-item a {
+    color: #6c757d; /* Gris Bootstrap par défaut */
+}
+
+/* Assurez-vous que la couleur reste gris même lors du survol et du focus */
+.accordion-button:hover,
+.accordion-button:focus,
+.list-group-item a:hover,
+.list-group-item a:focus {
+    color: #5a6268; /* Un gris légèrement plus foncé pour le survol et le focus */
+}
